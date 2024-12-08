@@ -1,125 +1,78 @@
 <!DOCTYPE html>
 <html>
+ 
   <head>
-    <title>Flexbox Practice</title>
+    <title>THPT Điểu Cải</title>
   </head>
-  <body style="padding-bottom: 1000px;">
-    <div style="
-      display: flex;
-      flex-direction: row;
-    ">
-      <div style="background-color: lightblue;">div 1 text</div>
-      <div style="background-color: lightpink;">div 2 <p>text</p></div>
-    </div>
+ <style>
+   body {
+  background-image: url('./thpt-background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+   }
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+}
+</style>
+  <body
+  style="
+    height: 1000px;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 120px;}
+    
+  ">
+   <img src="images/logo.jpg" alt="logo" width="150" height="150">
+  <div style="
+      background-color: blue;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      z-index: 100;
+      font-size: 40px;
+      text-align:center;
+    ">INFORMATION OF DIEU CAI HIGHSCHOOL</div>
+    
+    <div style="background-color:#59c0f7;color: white;font-size:80%;">
+  <h1>1.</h1>
+  <p>-	Ấp Đồn Điền 3, huyện Định Quắn, tỉnh Đồng Nai, Việt Nam</p>
+</div>
+   <div style="background-color:#59c0f7;color: white;font-size:80%;">
+  <h1>2.</h1>
+  <p>Trường THPT Điểu Cải là một ngôi trường mang đậm dấu ấn lịch sử và truyền thống của vùng đất Định Quán, Đồng Nai. Nhà trường được đặt tên để tưởng nhớ đến anh hùng Điểu Cải, một biểu tượng sáng ngời về lòng yêu nước và tinh thần chiến đấu bất khuất của dân tộc ta.
+Giai đoạn hình thành (1982 - 1989)
+</p>
+</div>
+<div class="mycontainer">
 
-    <div style="
-      margin-top: 30px;
-      display: flex;
-      flex-direction: row;
-    ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        flex: 1;
-      ">flex: 1</div>
-    </div>
+  <div style="background-color:#FFF4A3;">
+    <h2>3.	Tiểu sử anh hùng dân tộc Điểu Cải</h2>
+    <p>Điểu Cải, tên thật là Điểu Văn Cải, là một trong những anh hùng tiêu biểu của dân tộc ta, đặc biệt là đồng bào dân tộc thiểu số</p>
+    <p>London has over 13 million inhabitants.</p>
+  </div>
+  
+  <div style="background-color:#FFC0C7;">
+    <h2>4. Tiểu sử hình thành và phát triển của Trường THPT Điểu Cải</h2>
+    <p>Nhà trường được đặt tên để tưởng nhớ đến anh hùng Điểu Cải, một biểu tượng sáng ngời về lòng yêu nước và tinh thần chiến đấu bất khuất của dân tộc ta.</p>
+    <p>Oslo has over 600.000 inhabitants.</p>
+  </div>
+  
+  <div style="background-color:#D9EEE1;">
+    <h2>5.	Hoạt động nổi bật của trường điểu cải</h2>
+    <p>Các hoạt động nổi bật khác</p>
+    <p>Rome has almost 3 million inhabitants.</p>
+  </div>
 
-    <div style="
-      margin-top: 30px;
-      display: flex;
-      flex-direction: row;
-    ">
-      <div style="
-        background-color: lightblue;
-        flex: 1;
-      ">flex: 1</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        flex: 2;
-      ">flex: 2</div>
-    </div>
+</div>
 
-    <div style="
-      margin-top: 30px;
-      height: 70px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: gray;
-
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-    </div>
-
-    <div style="
-      margin-top: 30px;
-      height: 70px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: gray;
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-    </div>
-
-    <div style="
-      margin-top: 30px;
-      height: 70px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: gray;
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    ">
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightpink;
-        width: 100px;
-      ">100px</div>
-      <div style="
-        background-color: lightblue;
-        width: 100px;
-      ">100px</div>
-    </div>
   </body>
 </html>
